@@ -37,7 +37,6 @@ def main():
         if line.startswith('  HEAD branch:')
     )
 
-
     print(main_branch_name)  # Output the main branch name
 
     # Get list of chart directories that have changed
